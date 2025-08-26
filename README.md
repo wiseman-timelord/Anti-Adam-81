@@ -17,7 +17,7 @@ Its to disable built in, Defender/Anti-Spyware and Active Directory, consisderd,
 
 
 
-    1. Active Directory (Inconsistent)
+    1. Active Directory (Disabled)
 
     2. Windows Defender (Inconsistent)
 
@@ -51,7 +51,7 @@ wuauserv: Stopped and set to Disabled
 
 ===============================================================================
 FINAL STATUS:
-Active Directory Services: Inconsistent
+Active Directory Services: Disabled
 ===============================================================================
 Press any key to return to menu...
 
@@ -84,8 +84,22 @@ Press any key to return to menu...
 
 ```
 
-### Development
-1) It is always resulting in inconsistent application of tweaks, some work, some fail. Safe mode is probably the way to do it, however, having issues with running things as admin in safe mode.
+## Instruction (safe mode boot)
+Disabling Active Directory works, while Defender remains inconsistent, so it does more stuff...
+1) Reboot into safe mode (you should know or research how to do this if unsure).
+2) If the batch did not work (as it fails the admin check), then just Run the powershell script as admin.
+3) Select to disable things.
+4) In theory it can be re-enabled, the relating code is not tested.
+
+### Instruction (normal boot)
+Less tweaks work, both will remain inconsistent...
+1) use other method done through Safe Mode.
+2) if you insist, then the batch will work, and launch the powershell script with, pwsh or powershell, select to disable things.
+3) return to menu, but with both showing "Inconsistent", due to full tweaks not being able to be applied.
+4) In theory it can be re-enabled, the relating code is not tested.
+
+## Development
+- Disabling Active Directory works in Safe mode, so testing must be done in Safe Mode. Still issues with fully disabling Defender. 
 - It will be, AntiMSVirus and Satan Inside Remover, but in 1 and for windows 8/8.1. AntiMSVirus and Satan Inside Remover, for win 10 will also be merged into AntiMsVirus10-11.
 
 ### Notation
