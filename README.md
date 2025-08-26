@@ -103,9 +103,7 @@ Less tweaks work, both will remain inconsistent...
 - It will be, AntiMSVirus and Satan Inside Remover, but in 1 and for windows 8/8.1. AntiMSVirus and Satan Inside Remover, for win 10 will also be merged into AntiMsVirus10-11.
 
 ### Notation
-- It didnt seem to work by itself but supposedly; to Enable `F8` during boot for Boot Options such as Safe Mode, use this command in Command Prompt with Administrator rights
-```
-bcdedit /set {default} bootmenupolicy legacy"
-```
+- To Enable `F8` during boot for Boot Options such as Safe Mode, then while in safe mod use this command in Command Prompt with Administrator rights `bcdedit /set {default} bootmenupolicy legacy`.
+
 ## Warnings
 - Do not apply unsafe hacks to your computer, unless you fully understand what it is you are doing, you should first know what, Active Directory and Windows Defender, do, and what would happen without them.
