@@ -1,12 +1,12 @@
 # AntiMsVirus8-81
-Status: Alpha (Not Working, but at this point I'd expect it to be working!)
+Status: Alpha (Experimental).
 
 ### Description
-Its to disable built in redundant software in Windows 8/8.1, where you have an alternate solution maybe, or just want more efficient OS.
+Its to disable built in, Defender/Anti-Spyware and Active Directory, consisderd, redundant or unneccessary, software in Windows 8/8.1, or where you have an alternate solution, or dont want so many inspections/reports/updates going on.
 
 ### Development
-- It will be, AntiMSVirus and Satan Inside Remover, that were for widnows 10/11, but in 1 and for windows 8/8.1.
-- T.B.A
+- It does some things, but not all things intended. Safe mode is probably the way to do it, however, having issues with running things as admin in safe mode.
+- It will be, AntiMSVirus and Satan Inside Remover, but in 1 and for windows 8/8.1. AntiMSVirus and Satan Inside Remover, for win 10 will also be merged into AntiMsVirus10-11.
 
 ### Preview
 - Explains what it does...
