@@ -38,7 +38,7 @@ Selection; Menu Option = 1-2, Exit Tool = X:
 ```
 
 ### Notation
-- To Enable `F8` during boot for safe mode, use this command in Command Prompt with Administrator rights "bcdedit /set {default} bootmenupolicy legacy".
+- To Enable `F8` during boot for Boot Options such as Safe Mode, use this command in Command Prompt with Administrator rights "bcdedit /set {default} bootmenupolicy legacy".
 
 
 ## Warnings
