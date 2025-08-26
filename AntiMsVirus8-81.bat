@@ -28,11 +28,16 @@ net session >nul 2>&1 || (
     exit /b 1
 )
 
-:: ---------- locate PowerShell Core 6.x ----------
+:: ---------- locate PowerShell ----------
 set "PSCMD="
+:: First try PowerShell Core 6.x (pwsh.exe)
 for %%P in (pwsh.exe) do if not "%%~$PATH:P"=="" set "PSCMD=%%~$PATH:P"
+:: If not found, try Windows PowerShell 5.x (powershell.exe)
 if "%PSCMD%"=="" (
-    echo ERROR: PowerShell Core 6.x not found.
+    for %%P in (powershell.exe) do if not "%%~$PATH:P"=="" set "PSCMD=%%~$PATH:P"
+)
+if "%PSCMD%"=="" (
+    echo ERROR: PowerShell not found.
     timeout /t 3 >nul
     exit /b 1
 )
