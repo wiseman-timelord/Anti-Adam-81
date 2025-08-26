@@ -35,3 +35,6 @@ Selection; Menu Option = 1-2, Exit Tool = X:
 
 
 ```
+
+## Warnings
+- Do not compromise your computer's security, unless you know what you are doing.
