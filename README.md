@@ -90,7 +90,7 @@ Press any key to return to menu...
 
 
 ### Notation
-- To Enable `F8` during boot for Boot Options such as Safe Mode, use this command in Command Prompt with Administrator rights
+- It didnt seem to work by itself but supposedly; to Enable `F8` during boot for Boot Options such as Safe Mode, use this command in Command Prompt with Administrator rights
 ```
 bcdedit /set {default} bootmenupolicy legacy"
 ```
