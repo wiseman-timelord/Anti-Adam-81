@@ -37,4 +37,4 @@ Selection; Menu Option = 1-2, Exit Tool = X:
 ```
 
 ## Warnings
-- Do not apply unsafe hacks to your computer, unless you know what you are doing, and 
+- Do not apply unsafe hacks to your computer, unless you fully understand what it is you are doing, you should first know what, Active Directory and Windows Defender, do, and what would happen without them.
