@@ -36,6 +36,58 @@ Selection; Menu Option = 1-2, Exit Tool = X:
 
 
 ```
+- output 1...
+```
+===============================================================================
+    Active Directory - Disable Operation
+===============================================================================
+Netlogon: Stopped and set to Disabled
+W32Time: Stopped and set to Disabled
+TermService: Stopped and set to Disabled
+RemoteRegistry: Stopped and set to Disabled
+iphlpsvc: Stopped and set to Disabled
+SSDPSRV: Stopped and set to Disabled
+fdPHost: Stopped and set to Disabled
+FDResPub: Stopped and set to Disabled
+WerSvc: Stopped and set to Disabled
+DPS: Stopped and set to Disabled
+wuauserv: Stopped and set to Disabled
+
+===============================================================================
+FINAL STATUS:
+Active Directory Services: Inconsistent
+===============================================================================
+Press any key to return to menu...
+
+
+
+```
+- output 2...
+```
+===============================================================================
+    Windows Defender - Disable Operation
+===============================================================================
+Creating registry disable flags...
+  Set DisableAntiSpyware = 1
+  Set DisableRealtimeMonitoring = 1
+Stopping WinDefend service...
+Setting WinDefend service to Disabled...
+Disabling Windows Defender scheduled tasks...
+  Disabled: Windows Defender Cache Maintenance
+  Disabled: Windows Defender Cleanup
+  Disabled: Windows Defender Scheduled Scan
+  Disabled: Windows Defender Verification
+Stopping Windows Defender processes...
+
+===============================================================================
+FINAL STATUS:
+Windows Defender: Inconsistent
+===============================================================================
+Press any key to return to menu...
+
+
+```
+
 
 ### Notation
 - To Enable `F8` during boot for Boot Options such as Safe Mode, use this command in Command Prompt with Administrator rights
