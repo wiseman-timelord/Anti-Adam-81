@@ -1,12 +1,8 @@
 # AntiMsVirus8-81
-Status: Alpha (Experimental).
+Status: Alpha (it does some things, but not all things intended).
 
 ### Description
-Its to disable built in, Defender/Anti-Spyware and Active Directory, consisderd, redundant or unneccessary, software in Windows 8/8.1, or where you have an alternate solution, or dont want so many inspections/reports/updates going on.
-
-### Development
-- It does some things, but not all things intended. Safe mode is probably the way to do it, however, having issues with running things as admin in safe mode.
-- It will be, AntiMSVirus and Satan Inside Remover, but in 1 and for windows 8/8.1. AntiMSVirus and Satan Inside Remover, for win 10 will also be merged into AntiMsVirus10-11.
+Its to disable built in, Defender/Anti-Spyware and Active Directory, consisderd, redundant or unneccessary, software in Windows 8/8.1, or where you have an alternate solution, or dont want so many inspections/reports/updates going on. 
 
 ### Preview
 - Explains what it does...
@@ -88,6 +84,9 @@ Press any key to return to menu...
 
 ```
 
+### Development
+1) It is always resulting in inconsistent application of tweaks, some work, some fail. Safe mode is probably the way to do it, however, having issues with running things as admin in safe mode.
+- It will be, AntiMSVirus and Satan Inside Remover, but in 1 and for windows 8/8.1. AntiMSVirus and Satan Inside Remover, for win 10 will also be merged into AntiMsVirus10-11.
 
 ### Notation
 - It didnt seem to work by itself but supposedly; to Enable `F8` during boot for Boot Options such as Safe Mode, use this command in Command Prompt with Administrator rights
